@@ -45,6 +45,7 @@
     <Compile Include="website\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="music\templates\music\detail.html" />
     <Content Include="music\templates\music\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
