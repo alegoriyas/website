@@ -31,15 +31,28 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="manage.py" />
+    <Compile Include="music\admin.py" />
+    <Compile Include="music\apps.py" />
+    <Compile Include="music\migrations\__init__.py" />
+    <Compile Include="music\models.py" />
+    <Compile Include="music\tests.py" />
+    <Compile Include="music\urls.py" />
+    <Compile Include="music\views.py" />
+    <Compile Include="music\__init__.py" />
     <Compile Include="website\__init__.py" />
     <Compile Include="website\settings.py" />
     <Compile Include="website\urls.py" />
     <Compile Include="website\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="music\templates\music\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="music\" />
+    <Folder Include="music\migrations\" />
+    <Folder Include="music\templates\" />
+    <Folder Include="music\templates\music\" />
     <Folder Include="website\" />
   </ItemGroup>
   <ItemGroup>
