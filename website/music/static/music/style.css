@@ -7,6 +7,7 @@ ul.errorlist > li {
     list-style: none;
 }
 
+/* corner navbar */
 .navbar {
     border-radius: 0;
 }
