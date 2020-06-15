@@ -45,6 +45,8 @@
     <Compile Include="website\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="music\static\music\images\background.png" />
+    <Content Include="music\static\music\style.css" />
     <Content Include="music\templates\music\detail.html" />
     <Content Include="music\templates\music\index.html" />
     <Content Include="requirements.txt" />
@@ -52,6 +54,9 @@
   <ItemGroup>
     <Folder Include="music\" />
     <Folder Include="music\migrations\" />
+    <Folder Include="music\static\" />
+    <Folder Include="music\static\music\" />
+    <Folder Include="music\static\music\images\" />
     <Folder Include="music\templates\" />
     <Folder Include="music\templates\music\" />
     <Folder Include="website\" />
