@@ -2,7 +2,7 @@
 Definition of urls for music.
 
 """
-#https:www.youtube.com/watch?v=mWofrhTwGWQ&list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK&index=12
+
 from django.conf.urls import url
 
 from . import views
@@ -14,4 +14,7 @@ urlpatterns = [
 
     # /music/<album_id>/            pk=album_id
     url(r'^(?P<pk>[0-9]+)$', views.DetailView.as_view(), name='detail'),
+
+    # /music/album/add
+    url(r'album/add/$', views.AlbumCreate.as_view(), name='album-add'),
 ]

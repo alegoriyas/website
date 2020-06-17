@@ -47,8 +47,10 @@
   <ItemGroup>
     <Content Include="music\static\music\images\background.png" />
     <Content Include="music\static\music\style.css" />
+    <Content Include="music\templates\music\album_form.html" />
     <Content Include="music\templates\music\base.html" />
     <Content Include="music\templates\music\detail.html" />
+    <Content Include="music\templates\music\form-template.html" />
     <Content Include="music\templates\music\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
